@@ -1,0 +1,15 @@
+.main-input {
+	height: 50px;
+	border-radius: 50px;
+	background: rgb(66, 68, 97);
+	padding: 0 25px;
+	max-width: 630px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--white-default);
+
+	&::placeholder {
+		color: var(--input-text-color);
+	}
+}
