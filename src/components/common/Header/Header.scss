@@ -1,0 +1,23 @@
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+
+	&__top {
+		width: 100%;
+		min-height: 34px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--small-button);
+
+		p {
+			color: var(--body-background);
+			font-size: 14px;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+	}
+}
