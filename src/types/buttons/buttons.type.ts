@@ -1,4 +1,6 @@
-export interface IButton {
-	children: React.ReactNode
-	varinant:string
+import { ButtonHTMLAttributes, ReactNode } from 'react'
+
+export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
+	children: ReactNode
+	varinant: string
 }
