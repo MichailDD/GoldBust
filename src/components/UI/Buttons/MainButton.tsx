@@ -1,5 +1,5 @@
 import './Buttons.scss'
-import { IButton } from '../../../types/buttons/buttons.type'
+import { IButton } from './button.props'
 import cn from 'classnames'
 
 const MainButton = ({ children, className, varinant }: IButton) => {

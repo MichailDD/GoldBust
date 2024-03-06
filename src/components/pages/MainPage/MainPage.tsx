@@ -1,5 +1,9 @@
+import './MainPage.scss'
+
 const MainPage = () => {
-	return ( <div></div> );
+	return (<div>
+		<h1>Hello</h1>
+	</div> );
 }
  
 export default MainPage;
